@@ -9,14 +9,14 @@ Setup EJS: Done
 Register Page: Done
 Login Page: Done
 
-Register API
-Login API
+Register API: Done
+Login API: Done
 
-Session Base Auth
-middleware to protect API's
+Session Base Auth: Done
+middleware to protect API's: Done
 
-Dasboard Page
-Logout
+Dasboard Page: Done
+Logout: Done
 Logout from all devices
 
 Todo API's 
