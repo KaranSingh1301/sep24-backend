@@ -163,7 +163,8 @@ app.post("/logout-out-from-all", isAuth, async (req, res) => {
   //create a schema
   const sessionSchema = new mongoose.Schema({ _id: String }, { strict: false });
   //convert into a model
-  const sessionModel = mongoose.model("session", sessionSchema);
+  const sessionModel =
+    mongoose.models.session || mongoose.model("session", sessionSchema);
 
   //Db query to delete sessions
   try {
