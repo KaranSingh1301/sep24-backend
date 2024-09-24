@@ -40,7 +40,7 @@ const sendEmailVerificationMail = ({ token, email }) => {
     service: "gmail",
     auth: {
       user: "kssinghkaran13@gmail.com",
-      pass: "tisz llon oxyb mnpn",
+      pass: "",
     },
   });
 
